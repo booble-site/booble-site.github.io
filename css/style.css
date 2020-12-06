@@ -117,9 +117,9 @@ input[type="submit"]:active {
 	user-select: none;
 }
 #error-container {
+	overflow-wrap: break-word;
 	width: 600px;
 	height: 800px;
-
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2%;
