@@ -18,7 +18,7 @@ body {
 	position: fixed;
 	margin-left: 1%;
 }
-a {
+.secrets {
 	text-decoration: none;
 	background-color: none;
 	color: rgb(0, 101, 253);
@@ -123,11 +123,22 @@ input[type="submit"]:active {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2%;
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
 }
 
 .extra-margin {
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.notFoundUrl {
+	color: blue;
+}
+
+mark {
+	color: black;
+	background-color: pink;
+	padding: 4px;
+	border-radius: 10px;
 }

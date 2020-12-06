@@ -94,18 +94,24 @@
 		<!-- END THEME -->
 
 		<link rel="manifest" href="/manifest.json" />
+
+		<script src="/js/404.js" defer></script>
 	</head>
 	<body>
 		<div id="error-container">
 			<h1>404</h1>
 			<h3>BAKA</h3>
-			<p>this url doesn't exist</p>
+			<p>
+				this resource (<a id="pathNotFound" class="notFoundUrl"></a>)
+				was not found
+			</p>
+
 			<div class="extra-margin"></div>
 			<a href="/">
 				<img src="/images/404-gif.gif" width="497" height="280"
 			/></a>
 			<div class="extra-margin"></div>
-			<p>pat ryuko to visit homepage</p>
+			<p><mark>pat</mark> ryuko to visit homepage</p>
 		</div>
 	</body>
 </html>
