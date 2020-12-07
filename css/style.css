@@ -4,19 +4,26 @@
   padding: 0;
   margin: 0;
 }
+
 body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 101%;
   height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("/images/christmas2.png");
 }
 .dark-mode {
   background-color: black;
 }
 #darkmode {
-  bottom: 10px;
+  bottom: 1%;
   position: fixed;
-  margin-left: 1%;
+  left: 1%;
 }
 .secrets {
   text-decoration: none;
@@ -33,21 +40,16 @@ body {
   text-align: center;
   line-height: 300%;
   position: fixed;
-  right: 20px;
+  left: 20px;
   bottom: 10px;
 }
-#container {
-  width: 100%;
-  height: 100%;
-  margin-top: -10px;
-  background-color: red;
-}
+
 #booble {
   width: 626px;
   height: 183px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 #search {
   width: 500px;
