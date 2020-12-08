@@ -28,13 +28,12 @@ body {
 .secrets {
   text-decoration: none;
   background-color: none;
-  color: rgb(0, 101, 253);
+  color: red;
   font-weight: 900;
-
   font-size: 30px;
 }
 #secrets {
-  color: rgb(0, 101, 253);
+  color: red;
   height: 50px;
   width: 150px;
   text-align: center;
@@ -106,7 +105,7 @@ input[type="submit"]:active {
   transform: translate(-50%);
   text-align: center;
   margin: 10px;
-  background-color: rgb(0, 101, 253);
+  background-color: red;
   padding: 10px;
   color: white;
 }
